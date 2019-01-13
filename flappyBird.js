@@ -1,4 +1,7 @@
-var cvs = document.getElementById("canvas");
+
+var cvs = document.querySelector('a-scene');
+
+//var cvs = document.getElementById("canvas");
 var ctx = cvs.getContext("2d");
 
 // load images
