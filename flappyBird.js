@@ -1,4 +1,5 @@
 
+document.addEventListener('DOMContentLoaded', function() {
 
 var cvs = document.getElementById("a-canvas");
 var ctx = cvs.getContext("2d");
@@ -108,7 +109,7 @@ function draw(){
 
 draw();
 
-
+}, false);
 
 
 
