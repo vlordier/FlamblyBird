@@ -4,11 +4,13 @@
 		<title>FlambyBird by vincent</title>
 	</head>
 	<body>
+		<script src="https://cdn.jsdelivr.net/npm/webvr-polyfill@0.10.10/build/webvr-polyfill.min.js"></script>
 		<script src="https://aframe.io/releases/latest/aframe.min.js"></script>
 		<script src="https://cdn.jsdelivr.net/npm/aframe-stereo-component@0.6.0/index.min.js"></script>
 		<h3>flappyBird by LearnWD</h3>
-		
-		<canvas id="canvas" width="288" height="512"></canvas>
+		<a-scene vr-mode-ui="enabled: true">
+			<canvas id="canvas" width="288" height="512"></canvas>
+		</a-scene>
 		
 		<script src="flappyBird.js"></script>
 	</body>
